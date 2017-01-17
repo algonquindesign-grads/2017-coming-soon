@@ -1,0 +1,79 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Overpass', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 44px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 10px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 110%;
+  }
+
+  body {
+    padding: 4rem;
+  }
+
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 74px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 120%;
+  }
+
+  body {
+    padding: 5rem;
+  }
+
+  h1 {
+    font-size: 110px;
+  }
+
+  h2 {
+    font-size: 90px;
+  }
+}
